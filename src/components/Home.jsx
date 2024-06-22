@@ -100,9 +100,6 @@ const Home = () => {
         <div className="col-md-8">
           <div className="card mb-3" style={{ borderRadius: "10px" }}>
             <div className="card-body">
-              <h5 className="card-title">Right Section</h5>
-            </div>
-            <div className="card-body">
               <div className="d-flex align-items-center mb-4">
                 <i className="bi bi-search me-2"></i>
                 <h5 className="card-title mb-0">
