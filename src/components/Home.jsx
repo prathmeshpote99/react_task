@@ -53,7 +53,9 @@ const Home = () => {
               </div>
               <div className="border rounded p-3 mb-3">
                 <div className="d-flex justify-content-between align-items-center mb-2">
-                  <div className="text-primary">"Quantum Coffee Break"</div>
+                  <div className="text-primary">
+                    <b>"Quantum Coffee Break"</b>
+                  </div>
                   <div className="text-secondary heading2">2 days ago</div>
                 </div>
                 <div className="d-flex justify-content-between align-items-center">
@@ -67,13 +69,15 @@ const Home = () => {
               </div>
               <div className="border rounded p-3 mb-3">
                 <div className="d-flex justify-content-between align-items-center mb-2">
-                  <div className="text-primary">"Neptune's Secret Recipe"</div>
+                  <div className="text-primary">
+                    <b>"Neptune's Secret Recipe"</b>
+                  </div>
                   <div className="text-secondary heading2">2 days ago</div>
                 </div>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="failed">
                     <span className="text-danger me-2">
-                      <i class="bi bi-alarm"></i>
+                      <i className="bi bi-alarm"></i>
                     </span>
                     <span>In progress</span>{" "}
                   </div>
@@ -81,7 +85,9 @@ const Home = () => {
               </div>
               <div className="border rounded p-3">
                 <div className="d-flex justify-content-between align-items-center mb-2">
-                  <div className="text-primary">"Supernova Symphony"</div>
+                  <div className="text-primary">
+                    <b>"Supernova Symphony"</b>
+                  </div>
                   <div className="text-secondary heading2">2 days ago</div>
                 </div>
                 <div className="d-flex justify-content-between align-items-center">
@@ -143,6 +149,9 @@ const Home = () => {
               <div className="alert alert-light d-flex align-items-center mb-2">
                 <i className="bi bi-file-earmark-word me-2"></i>
                 <span>Case Document.docx</span>
+              </div>
+              <div className="d-flex justify-content-end">
+                <button className="start-button">Start</button>
               </div>
             </div>
           </div>
