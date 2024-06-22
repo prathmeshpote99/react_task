@@ -41,6 +41,13 @@ li {
   border-radius: 5px;
 }
 
+.warning {
+  background-color: #ffee8c;
+  color: #8a7500;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
 .heading2 {
   font-size: 12px;
 }
@@ -128,4 +135,24 @@ li {
 .para {
   text-align: justify;
   font-size: 15px;
+}
+
+.vertical-line {
+  border: 1px solid #ccc;
+  margin: 0 0.5rem;
+}
+
+.go-home-button {
+  background: linear-gradient(to left, #025bd4, #006cff);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 60px;
+  font-size: 16px;
+  text-decoration: none !important;
+}
+
+.go-home-button:hover {
+  background: linear-gradient(to left, #006cff, #025bd4);
+  color: white;
 }

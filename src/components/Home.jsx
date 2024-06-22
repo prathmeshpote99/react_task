@@ -75,8 +75,8 @@ const Home = () => {
                   <div className="text-secondary heading2">2 days ago</div>
                 </div>
                 <div className="d-flex justify-content-between align-items-center">
-                  <div className="failed">
-                    <span className="text-danger me-2">
+                  <div className="warning">
+                    <span className="text-warning me-2">
                       <i className="bi bi-alarm"></i>
                     </span>
                     <span>In progress</span>{" "}

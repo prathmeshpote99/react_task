@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/" activeClassName="">
-          Navbar
+          <strong>REACT</strong>
         </NavLink>
 
         <button
