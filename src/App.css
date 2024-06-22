@@ -87,3 +87,45 @@ li {
   background: linear-gradient(to left, #006cff, #025bd4);
   color: white;
 }
+
+.back-button {
+  background: linear-gradient(to left, #006cff, #025bd4);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background: linear-gradient(to left, #025bd4, #006cff);
+  text-decoration: none;
+}
+
+.upload-card {
+  background-color: #b3d0e7;
+  padding: 10px;
+}
+
+.upload-item {
+  background-color: #f0f3f5;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.nav-tabs .nav-link {
+  color: grey;
+}
+
+.nav-tabs .nav-link.active {
+  background: linear-gradient(to left, #025bd4, #006cff);
+  color: white !important;
+}
+
+.para {
+  text-align: justify;
+  font-size: 15px;
+}

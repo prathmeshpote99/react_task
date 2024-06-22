@@ -32,7 +32,7 @@ const Navbar = () => {
                 className="nav-link"
                 activeClassName="active"
                 exact
-                to="/news"
+                to="/newsfeed"
               >
                 <i className="bi bi-newspaper me-2"></i>
                 News Feed
